@@ -49,8 +49,8 @@ url = 'https://twitter.com/search?l=&q=%23'+querySearch+'%20since%3A'+tglAwal+'%
 ## E: pemilihan query pencarian
 
 ## S: inisialisasi driver browser
-# driver download: seleniumhq.org/download
-driver = webdriver.Firefox("E:\\Python\\python27\\zgeopredict\\scrapping\\")
+# seleniumhq.org driver
+driver = webdriver.Firefox("path")
 driver.get(url)
 ## E: inisialisasi driver browser
 
