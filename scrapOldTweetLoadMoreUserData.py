@@ -12,10 +12,10 @@ from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 
-consumer_key = 'e4s4csnyPDZ3VyIGvx8gqwmbY'
-consumer_secret = '8iMt3c37qacJSg5W128a8iJvC1d7IsDLl74QIJb4rJGiv6Lhk1'
-access_token = '3022906249-OfvSYeyJJrSj7PxKpYKfRiccugTN8TTmqZm05GP'
-access_secret = 'oGnA4NV9lLQUCLaJQ2zEBBjbzNlxawaSCQGvrFnYvUkbq'
+consumer_key = 'consumer_key_here'
+consumer_secret = 'consumer_secret_here'
+access_token = 'access_token_here'
+access_secret = 'access_secret_here'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 api = tweepy.API(auth)
